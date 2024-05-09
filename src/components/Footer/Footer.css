@@ -1,0 +1,41 @@
+#links-icon{
+    display:flex;
+    justify-content:space-evenly;
+    font-size:xx-large;
+    animation: icons linear 3s;
+}
+.social{
+    color:azure;
+    position:relative;
+    top:700px;
+    cursor:pointer;
+
+}
+
+.copyright{
+    display: block;
+    position:relative;
+    bottom:-735px;
+    font-size:30px;
+    font-weight:bolder;
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
+    opacity:0.3;
+    animation: copy 3s linear;
+}
+#facebook:active{
+    color:blue;
+    transition: all 0.1s;
+    transform:scale(1.2);
+}
+#twitter:active{
+    color:aqua;
+    transition:all 0.1s;
+    transform:scale(1.2);
+}
+#instagram:active{
+    color:deeppink;
+    transition: all 0.1s;
+    transform:scale(1.2);
+}

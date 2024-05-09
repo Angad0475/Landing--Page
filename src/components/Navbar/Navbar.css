@@ -48,3 +48,28 @@ li:active{
     transform:scale(1.2);
     transition: all 0.2s;
 }
+
+@media(max-width:420px){
+    .navbar{
+       width:70px;
+    }
+    li{
+        position:relative;
+        left:450px;
+        top:-30px;
+
+    }
+    
+    .navbar{
+        height:6vh;
+    }
+    img{
+        width:12vw;
+        height:5vh;
+    }
+
+}
+
+      
+      
+

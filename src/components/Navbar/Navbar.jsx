@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import './Navbar.css';
 import logo from "../../imageandvideo/logo2.png";
 
+
  function Navbar() {
    const [Click,setClick]= useState("");
   return (
@@ -11,8 +12,8 @@ import logo from "../../imageandvideo/logo2.png";
           </div>
           <ul className='list-items'>
            <li onClick={()=>{setClick("Home")}}><a style={{textDecoration:'none'}} href='/'>Home</a>{Click==="Home"?<hr/>:<></>}</li>
-           <li onClick={()=>{setClick("About")}}><a style={{textDecoration:'none'}} href='/'>About</a>{Click==="About"?<hr/>:<></>}</li>
-           <li onClick={()=>{setClick("Connect")}}><a style={{textDecoration:'none'}} href='/'>Connect</a>{Click==="Connect"?<hr/>:<></>}</li>
+           <li onClick={()=>{setClick("About")}}><a style={{textDecoration:'none'}} href='#side-line'>About</a>{Click==="About"?<hr/>:<></>}</li>
+           <li onClick={()=>{setClick("Connect")}}><a style={{textDecoration:'none'}} href='#links-icon'>Connect</a>{Click==="Connect"?<hr/>:<></>}</li>
           </ul>
        </div>
   )
