@@ -50,7 +50,7 @@ body{
   background-color:black;
 }
 @keyframes icons{
-  0%,25%,50%,75%{
+  0%,25%,75%{
     opacity:0;
   }
   100%{
@@ -58,7 +58,7 @@ body{
   }
 }
 @keyframes copy{
-  0%,25%,50%,75%{
+  0%,25%,50%{
     opacity:0;
   }
   100%{
